@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Virtual_Lab_Front_scaled" size="100.000000 129.492188" />
+    <ImageTarget name="virtual_lab_back_scaled" size="100.000000 129.492188" />
+    <ImageTarget name="newark_ny_icon_scaled" size="100.000000 130.078125" />
+    <ImageTarget name="sciencelabtarget_scaled" size="100.000000 130.468750" />
+    <ImageTarget name="KM-015_scaled" size="100.000000 56.250000" />
+    <ImageTarget name="KE-001_scaled" size="100.000000 56.250000" />
+    <ImageTarget name="8M-011_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="8M-007_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="8E-005_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="7M-005_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="7E-003_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="6M-021_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="6E-003_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="5M-018_scaled" size="100.000000 56.250000" />
+    <ImageTarget name="5M-011_scaled" size="100.000000 55.468750" />
+    <ImageTarget name="5E-030_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="5E-005_scaled" size="100.000000 56.250000" />
+    <ImageTarget name="4M-025_scaled" size="100.000000 55.273438" />
+    <ImageTarget name="4E-002_scaled" size="100.000000 55.273438" />
+    <ImageTarget name="3M-012_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="3E-011_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="2M-015_scaled" size="100.000000 56.250000" />
+    <ImageTarget name="2E-003_scaled" size="100.000000 56.250000" />
+    <ImageTarget name="2E-001_scaled" size="100.000000 55.859375" />
+    <ImageTarget name="1M-002_scaled" size="100.000000 56.250000" />
+    <ImageTarget name="1E-016_scaled" size="100.000000 56.250000" />
+  </Tracking>
+</QCARConfig>

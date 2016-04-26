@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CARE4D-Grade3.CSharp", "CARE4D-Grade3.CSharp.csproj", "{7F2EF4E6-D975-A5DB-F777-B5018B3B812B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CARE4D-Grade3.CSharp.Editor", "CARE4D-Grade3.CSharp.Editor.csproj", "{6F40FA91-0827-F2AB-48DE-4C759B8B867C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F2EF4E6-D975-A5DB-F777-B5018B3B812B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2EF4E6-D975-A5DB-F777-B5018B3B812B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2EF4E6-D975-A5DB-F777-B5018B3B812B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2EF4E6-D975-A5DB-F777-B5018B3B812B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F40FA91-0827-F2AB-48DE-4C759B8B867C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F40FA91-0827-F2AB-48DE-4C759B8B867C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F40FA91-0827-F2AB-48DE-4C759B8B867C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F40FA91-0827-F2AB-48DE-4C759B8B867C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

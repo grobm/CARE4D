@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F2EF4E6-D975-A5DB-F777-B5018B3B812B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.3.4f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;VUFORIA_ANDROID_SETTINGS;VUFORIA_SAMPLE_ORIENTATION_SETTINGS</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;VUFORIA_ANDROID_SETTINGS;VUFORIA_SAMPLE_ORIENTATION_SETTINGS</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicWaterNativeWrapper">
+      <HintPath>Assets\Plugins\DynamicWaterNativeWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="WP8Screenshot">
+      <HintPath>Assets\Plugins\WP8Screenshot.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjReader">
+      <HintPath>Assets\Plugins\ObjReader\ObjReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>Assets\Vuforia\Scripts\Internal\Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AssetBundleManager\AssetBundleLoadOperation.cs" />
+    <Compile Include="Assets\AssetBundleManager\AssetBundleManager.cs" />
+    <Compile Include="Assets\AssetBundleManager\SampleScene\Scripts\LoadAssetBundle.cs" />
+    <Compile Include="Assets\AssetBundleManager\SampleScene\Scripts\LoadAssetBundleWithLoader.cs" />
+    <Compile Include="Assets\AssetBundleManager\SampleScene\Scripts\SelectFlag.cs" />
+    <Compile Include="Assets\AssetBundleManager\SampleScene\Scripts\SwingFlag.cs" />
+    <Compile Include="Assets\AssetBundleManager\Scripts\AssetBundleContainer.cs" />
+    <Compile Include="Assets\AssetBundleManager\Scripts\AssetBundleLoader.cs" />
+    <Compile Include="Assets\AssetBundleManager\Scripts\AssetBundleManageData.cs" />
+    <Compile Include="Assets\AssetBundleManager\Scripts\AssetBundleManager.cs" />
+    <Compile Include="Assets\AssetBundleManager\Scripts\BundleAssetList.cs" />
+    <Compile Include="Assets\AssetBundleManager\Scripts\DirectoryContent.cs" />
+    <Compile Include="Assets\AssetBundleManager\Scripts\FileContent.cs" />
+    <Compile Include="Assets\AssetBundleManager\Scripts\iContent.cs" />
+    <Compile Include="Assets\AssetBundleManager\Utility.cs" />
+    <Compile Include="Assets\AssignmentOnCall.cs" />
+    <Compile Include="Assets\CameraManager.cs" />
+    <Compile Include="Assets\CatalogScript.cs" />
+    <Compile Include="Assets\Common\CameraSettings.cs" />
+    <Compile Include="Assets\Common\InitErrorHandler.cs" />
+    <Compile Include="Assets\Common\MenuAnimator.cs" />
+    <Compile Include="Assets\Common\MenuOptions.cs" />
+    <Compile Include="Assets\Common\SplashAbout\AboutScreen.cs" />
+    <Compile Include="Assets\Common\SplashAbout\AsyncSceneLoader.cs" />
+    <Compile Include="Assets\Common\SplashAbout\LoadingScreen.cs" />
+    <Compile Include="Assets\Common\TapHandler.cs" />
+    <Compile Include="Assets\Common\TrackableSettings.cs" />
+    <Compile Include="Assets\Common\UIFramework\AboutScreenView.cs" />
+    <Compile Include="Assets\Common\UIFramework\AppManager.cs" />
+    <Compile Include="Assets\Common\UIFramework\ISampleAppUIElement.cs" />
+    <Compile Include="Assets\Common\UIFramework\ISampleAppUIEventHandler.cs" />
+    <Compile Include="Assets\Common\UIFramework\ISampleAppUIView.cs" />
+    <Compile Include="Assets\Common\UIFramework\InputController.cs" />
+    <Compile Include="Assets\Common\UIFramework\SampleAppUIBox.cs" />
+    <Compile Include="Assets\Common\UIFramework\SampleAppUIButton.cs" />
+    <Compile Include="Assets\Common\UIFramework\SampleAppUICheckButton.cs" />
+    <Compile Include="Assets\Common\UIFramework\SampleAppUIConstants.cs" />
+    <Compile Include="Assets\Common\UIFramework\SampleAppUILabel.cs" />
+    <Compile Include="Assets\Common\UIFramework\SampleAppUILayout.cs" />
+    <Compile Include="Assets\Common\UIFramework\SampleAppUIRadioButton.cs" />
+    <Compile Include="Assets\Common\UIFramework\SampleAppUIRect.cs" />
+    <Compile Include="Assets\Common\UIFramework\SampleInitErrorHandler.cs" />
+    <Compile Include="Assets\Common\UIFramework\SceneViewManager.cs" />
+    <Compile Include="Assets\Common\UIFramework\SplashScreenView.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\CustomMediaGUI.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MedaiPlayerSampleGUI.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MedaiPlayerSampleSphereGUI.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerCtrl.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerFullScreenCtrl.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\SphereMirror.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\VideoCopyTexture.cs" />
+    <Compile Include="Assets\ErrorText.cs" />
+    <Compile Include="Assets\ExperienceSelector.cs" />
+    <Compile Include="Assets\GalleryScreenshot\Example\DemoScript.cs" />
+    <Compile Include="Assets\GalleryScreenshot\ScreenshotManager.cs" />
+    <Compile Include="Assets\GrabAugmentedObject.cs" />
+    <Compile Include="Assets\GradeManager.cs" />
+    <Compile Include="Assets\JSONObject.cs" />
+    <Compile Include="Assets\JSONTemplates.cs" />
+    <Compile Include="Assets\ManipulateArObject.cs" />
+    <Compile Include="Assets\MetaParse.cs" />
+    <Compile Include="Assets\ModifyTexture.cs" />
+    <Compile Include="Assets\ObjLoader.cs" />
+    <Compile Include="Assets\ObjectController.cs" />
+    <Compile Include="Assets\Orbit.cs" />
+    <Compile Include="Assets\PlanetText.cs" />
+    <Compile Include="Assets\Resources\RegexAssist.cs" />
+    <Compile Include="Assets\Resources\Scripts\CoroutineWithData.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Resources\Scripts\SceneManager.cs" />
+    <Compile Include="Assets\Resources\Scripts\SceneObject.cs" />
+    <Compile Include="Assets\Resources\Scripts\ServerAccessCalls.cs" />
+    <Compile Include="Assets\Resources\Scripts\ServerAccessFunctions.cs" />
+    <Compile Include="Assets\SceneSwitcher.cs" />
+    <Compile Include="Assets\Scripts\Aerodrome.cs" />
+    <Compile Include="Assets\Scripts\AnimateOnObjective.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleAugmenter.cs" />
+    <Compile Include="Assets\Scripts\AutoZoom.cs" />
+    <Compile Include="Assets\Scripts\BackButton.cs" />
+    <Compile Include="Assets\Scripts\ButtonSelector.cs" />
+    <Compile Include="Assets\Scripts\CameraImageAccess.cs" />
+    <Compile Include="Assets\Scripts\ChangeColorOnObjective.cs" />
+    <Compile Include="Assets\Scripts\CloudRecoEventHandler.cs" />
+    <Compile Include="Assets\Scripts\CloudRecoTrackableEventHandler.cs" />
+    <Compile Include="Assets\Scripts\ContentManager.cs" />
+    <Compile Include="Assets\Scripts\ContentManagerAssetBundles.cs" />
+    <Compile Include="Assets\Scripts\DragOnTrack.cs" />
+    <Compile Include="Assets\Scripts\FadeUpOnEnable.cs" />
+    <Compile Include="Assets\Scripts\LoadPDF.cs" />
+    <Compile Include="Assets\Scripts\LocationObjective.cs" />
+    <Compile Include="Assets\Scripts\MainMenuBackButton.cs" />
+    <Compile Include="Assets\Scripts\MovieLauncher.cs" />
+    <Compile Include="Assets\Scripts\MyVideoPlayBack.cs" />
+    <Compile Include="Assets\Scripts\Objective.cs" />
+    <Compile Include="Assets\Scripts\ObjectiveResponse.cs" />
+    <Compile Include="Assets\Scripts\ObjectiveTracker.cs" />
+    <Compile Include="Assets\Scripts\ParticlesOnObjective.cs" />
+    <Compile Include="Assets\Scripts\PlayVideo.cs" />
+    <Compile Include="Assets\Scripts\ResetButtonResponse.cs" />
+    <Compile Include="Assets\Scripts\SelectOnClick.cs" />
+    <Compile Include="Assets\Scripts\TakeScreenshot.cs" />
+    <Compile Include="Assets\Scripts\TapToPlunge.cs" />
+    <Compile Include="Assets\Scripts\TimerEvent.cs" />
+    <Compile Include="Assets\Scripts\TrackableEventHandler.cs" />
+    <Compile Include="Assets\Scripts\UIEvents.cs" />
+    <Compile Include="Assets\Scripts\UIEvents_old.cs" />
+    <Compile Include="Assets\Scripts\VideoPlaybackAppManager.cs" />
+    <Compile Include="Assets\Scripts\VideoPlaybackTapHandler.cs" />
+    <Compile Include="Assets\Scripts\VideoPlaybackUIEventHandler.cs" />
+    <Compile Include="Assets\Scripts\VideoPlaybackUIView.cs" />
+    <Compile Include="Assets\Scripts\Vuphoria Custom Scripts\VideoPlaybackIcon.cs" />
+    <Compile Include="Assets\Scripts\Vuphoria Custom Scripts\VuphoriaVideoGUI.cs" />
+    <Compile Include="Assets\Scripts\ZoomView.cs" />
+    <Compile Include="Assets\Scripts\care4dManager.cs" />
+    <Compile Include="Assets\Scripts\instructions.cs" />
+    <Compile Include="Assets\Scripts\sceneLoader.cs" />
+    <Compile Include="Assets\TimedFader.cs" />
+    <Compile Include="Assets\VectorTemplates.cs" />
+    <Compile Include="Assets\VideoBrowserManager.cs" />
+    <Compile Include="Assets\VideoPathOverride.cs" />
+    <Compile Include="Assets\VideoPlayButton.cs" />
+    <Compile Include="Assets\Vuforia Video Playback\Scripts\VideoPlaybackBehaviour.cs" />
+    <Compile Include="Assets\Vuforia Video Playback\Scripts\VideoPlayerHelper.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DatabaseLoadBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DeviceTrackerBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DigitalEyewearBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\KeepAliveBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\MarkerBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\SmartTerrainTrackerBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundManager.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WebCamBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+    <Compile Include="Assets\WaterSplash.cs" />
+    <Compile Include="Assets\ZoomOnClick.cs" />
+    <Compile Include="Assets\ZoomViewer.cs" />
+    <Compile Include="Assets\mainSceneManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Chemistry Bundle\Shaders\Reflect-DiffuseAlpha 1.shader" />
+    <None Include="Assets\Chemistry glassware\Alpha-Glossy -Glass.shader" />
+    <None Include="Assets\EasyMovieTexture\Chromakey.shader" />
+    <None Include="Assets\EasyMovieTexture\Chromakey2.shader" />
+    <None Include="Assets\EasyMovieTexture\readme.txt" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\GalleryScreenshot\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\GalleryScreenshot\bin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\GalleryScreenshot\bin\R.txt" />
+    <None Include="Assets\Plugins\Android\VuforiaMediaSource\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\VuforiaMediaSource\README.txt" />
+    <None Include="Assets\Plugins\Android\VuforiaMediaSource\build.xml" />
+    <None Include="Assets\Plugins\iOS\VuforiaMediaSource\README.txt" />
+    <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerHelper.mm.txt" />
+    <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerWrapper.mm.txt" />
+    <None Include="Assets\Shaders\Transparent Vertex Colored Index -1.shader" />
+    <None Include="Assets\Shaders\Transparent Vertex Colored Index -2.shader" />
+    <None Include="Assets\SolarSystem\Shaders\Bumped Planets.shader" />
+    <None Include="Assets\SolarSystem\Shaders\Planets.shader" />
+    <None Include="Assets\SolarSystem\Shaders\Ring.shader" />
+    <None Include="Assets\SolarSystem\Shaders\Sun.shader" />
+    <None Include="Assets\StreamingAssets\QCAR\CARE4D.xml" />
+    <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
+    <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+    <None Include="Assets\Vuforia\Scripts\Internal\Vuforia.UnityExtensions.XML" />
+    <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+    <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+    <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+    <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+    <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+    <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+    <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+    <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+    <None Include="Assets\license_3rdpartynotice.txt" />
+    <None Include="Assets\link.xml" />
+    <None Include="Assets\php\crossdomain.xml" />
+    <None Include="Assets\readme_SDK.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
